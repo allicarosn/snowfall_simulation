@@ -1,4 +1,4 @@
-%%%%% making a movie of the given snowfall %%%%%
+%%%%% Matlab file to read snowflake info and make a movie %%%%%
 
 
 %     titleOption = 1;
