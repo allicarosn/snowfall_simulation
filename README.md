@@ -5,7 +5,7 @@ I had developed this code for a class project around Christmas 2023.
 The code uses a finite difference solver to approximate the 2D Navier-Stokes equations to model wind patterns. 
 The velocities of the wind, alongside some added downward velocity, determines the location of a handful of snowflakes. 
 The example wind patterns I currently have coded are not physical, due to the limited time I had to complete this project for my class.
-Regardless, the code gives a cute animation, as can be seen in the example video "snowfall.mov".
+Regardless, the code gives a cute animation, as can be seen in the example video "snowfall.mp4".
 
 The code is written in C and can be used with openMP.
 
@@ -17,6 +17,6 @@ ins2d.C -- (main function) solves Navier Stokes equations, tracks snowflake part
 snowMovie.m -- Matlab file to read snowflake particle information from ins2d.C and output a video
 
 xmastree.jpeg -- background picture used in Matlab movie
-snowfall.mov -- example movie
+snowfall.mp4 -- example movie
 
 
