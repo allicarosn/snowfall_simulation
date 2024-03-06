@@ -1,14 +1,16 @@
 // =====================================================================
 //
 // Incompressible Navier Stokes 2D
+//
+// Finite difference solver
 // Dirichlet conditions
 // First order in time, second in space
 //
 //
-// Solve with A++ arrays  
+// Solve with A++ arrays & openMP
 //
 //
-// solve with openmp
+// outputs snowflake positions to a Matlab file to be read
 //
 // =====================================================================
 
