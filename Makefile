@@ -1,5 +1,7 @@
 ##### Makefile for 2d ins code #####
 
+# $(APlusPlus) is the location of the A++ library, left general here
+
 all = ins2d
 
 # compilers
@@ -9,7 +11,7 @@ CXX = g++
 opt = -O3
 omp = -fopenmp
 
-CCFLAGS= -fPIC $(opt) $(omp) -I$(APlusPlus)/include -I../../include 
+CCFLAGS= -fPIC $(opt) $(omp) -I$(APlusPlus)/include 
 
 # List of libraries for A++
 AppLibraries = -Wl,-rpath,$(APlusPlus)/lib -L$(APlusPlus)/lib -lApp -lApp_static
