@@ -7,7 +7,7 @@ The velocities of the wind, alongside some added downward velocity, determines t
 The example wind patterns I currently have coded are not physical, due to the limited time I had to complete this project for my class.
 Regardless, the code gives a cute animation, as can be seen in the example video "snowfall.mp4".
 
-The code is written in C and can be used with openMP.
+The code is written to be used with openMP.
 
 FILES:
 Makefile -- generic makefile
